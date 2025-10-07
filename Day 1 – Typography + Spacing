@@ -1,0 +1,27 @@
+export default function Day1Hero() {
+  return (
+    <main className="min-h-screen bg-white text-gray-900">
+      <section className="max-w-6xl mx-auto px-4 py-16 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h1 className="text-4xl font-semibold tracking-tight leading-tight">
+              Build clean UIs fast with React & Tailwind
+            </h1>
+            <p className="mt-4 text-base text-gray-600 leading-relaxed">
+              Simple spacing rhythm and readable type make 80% of good design.
+            </p>
+            <div className="mt-6 flex gap-3">
+              <button className="px-4 py-2 rounded-xl bg-black text-white hover:opacity-90">
+                Get Started
+              </button>
+              <button className="px-4 py-2 rounded-xl border hover:bg-gray-50">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div className="h-64 rounded-2xl bg-gradient-to-br from-gray-100 to-gray-200" />
+        </div>
+      </section>
+    </main>
+  );
+}
