@@ -1,0 +1,27 @@
+export default function BlogPage() {
+  return (
+    <main className="min-h-screen bg-white text-gray-900">
+      <article className="max-w-3xl mx-auto px-4 py-16 leading-relaxed">
+        <p className="text-sm text-gray-500 mb-2">October 7, 2025 · 5 min read</p>
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
+          Design Better Interfaces with Typography
+        </h1>
+        <p className="mt-6 text-gray-700">
+          Good typography is about rhythm and comfort.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10">1. Type Scale</h2>
+        <p className="mt-4 text-gray-700">
+          Use few font sizes consistently: text-5xl, text-3xl, text-base.
+        </p>
+        <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-600 mt-6">
+          “Whitespace lets your text breathe.”
+        </blockquote>
+        <pre className="mt-6 bg-gray-100 p-4 rounded-lg text-sm overflow-x-auto">
+{`<p className="text-base leading-relaxed">Balanced text width improves readability.</p>`}
+        </pre>
+        <hr className="my-10 border-gray-200" />
+        <p className="text-sm text-gray-500">Written by Buzz</p>
+      </article>
+    </main>
+  );
+}
